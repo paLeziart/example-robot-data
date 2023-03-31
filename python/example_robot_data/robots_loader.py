@@ -386,6 +386,18 @@ class BorinotLoader(RobotLoader):
     free_flyer = True
 
 
+class SassaLoader(RobotLoader):
+    path = "sassa_description"
+    urdf_filename = "sassa.urdf"
+    free_flyer = True
+
+
+class SassaHalfLoader(RobotLoader):
+    path = "sassa_description"
+    urdf_filename = "sassaHalf.urdf"
+    free_flyer = True
+
+
 class Solo8Loader(RobotLoader):
     path = "solo_description"
     urdf_filename = "solo.urdf"
@@ -590,6 +602,8 @@ ROBOTS = {
     "simple_humanoid_classical": SimpleHumanoidClassicalLoader,
     "bolt": BoltLoader,
     "borinot": BorinotLoader,
+    "sassa": SassaLoader,
+    "sassaHalf": SassaHalfLoader,
     "solo8": Solo8Loader,
     "solo12": Solo12Loader,
     "finger_edu": FingerEduLoader,

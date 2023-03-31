@@ -1,0 +1,621 @@
+<robot name="sassa">
+<link name="body_sasm">
+<visual>
+<origin xyz="-2.498001805406602216e-16 6.9388939039072283776e-18 1.8041124150158793782e-16" rpy="-9.7843404150693598069e-29 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/handle.stl"/>
+</geometry>
+<material name="handle_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-2.498001805406602216e-16 6.9388939039072283776e-18 1.8041124150158793782e-16" rpy="-9.7843404150693598069e-29 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/handle.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-0.12800000000000033573 1.0408340855861448079e-17 -1.9428902930940239457e-16" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body_panel.stl"/>
+</geometry>
+<material name="body_panel_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-0.12800000000000033573 1.0408340855861448079e-17 -1.9428902930940239457e-16" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body_panel.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="0.12800000000000044675 0.060000000000000004718 5.5511151231257827021e-17" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0.12800000000000044675 0.060000000000000004718 5.5511151231257827021e-17" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-0.12800000000000033573 0.060000000000000011657 -1.9428902930940239457e-16" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-0.12800000000000033573 0.060000000000000011657 -1.9428902930940239457e-16" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="0 0 0" rpy="1.8669045833583375598e-58 7.8886090522101281435e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body.stl"/>
+</geometry>
+<material name="body_material">
+<color rgba="0.2745098039215686514 0.2745098039215686514 0.2745098039215686514 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="1.8669045833583375598e-58 7.8886090522101281435e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.12800000000000044675 1.0408340855860438892e-17 5.5511151231257827021e-17" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body_panel.stl"/>
+</geometry>
+<material name="body_panel_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0.12800000000000044675 1.0408340855860438892e-17 5.5511151231257827021e-17" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/body_panel.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="0.12800000000000044675 -0.059999999999999990841 5.5511151231257827021e-17" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0.12800000000000044675 -0.059999999999999990841 5.5511151231257827021e-17" rpy="-1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-0.12800000000000033573 -0.059999999999999983902 -1.9428902930940239457e-16" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-0.12800000000000033573 -0.059999999999999983902 -1.9428902930940239457e-16" rpy="1.570796326794896558 7.888609052210114691e-29 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="1.0549119014210002315e-08 2.6420442197386651047e-06 0.0012678260149069624924" rpy="0 0 0"/>
+<mass value="3.4790000000000000924" />
+<inertia ixx="0.017238756351439742803" ixy="-1.0858624503035096964e-09"  ixz="-5.3345333846338443867e-05" iyy="0.06201091917991622543" iyz="-5.6946189178596202636e-07" izz="0.073697337716442989919" />
+</inertial>
+</link>
+
+<link name="helbow_sasm">
+<visual>
+<origin xyz="-3.1225022567582527699e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 -6.5617017863841870815e-34 6.5617017838168550278e-34" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/angle_motor_connect.stl"/>
+</geometry>
+<material name="angle_motor_connect_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-3.1225022567582527699e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 -6.5617017863841870815e-34 6.5617017838168550278e-34" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/angle_motor_connect.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-3.1225022567582527699e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 0.3141592653589793116 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-3.1225022567582527699e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 0.3141592653589793116 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="5.944480483317752254e-05 -0.0057855661598585949104 -0.054844450125644705896" rpy="0 0 0"/>
+<mass value="0.76500000000000001332" />
+<inertia ixx="0.00070529619085715202723" ixy="8.1991517066850037332e-07"  ixz="-1.1586194990785575583e-06" iyy="0.0010092480556627564381" iyz="9.9300977410698304266e-06" izz="0.00061029448812635394769" />
+</inertial>
+</link>
+
+<link name="upperleg_sasm">
+<visual>
+<origin xyz="4.5794955934427937194e-18 0 -0.079000000000000014655" rpy="1.5707963267948970021 2.9044849690249756194e-16 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="4.5794955934427937194e-18 0 -0.079000000000000014655" rpy="1.5707963267948970021 2.9044849690249756194e-16 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="1.753469930634033528e-16 0 -0.053500000000000075273" rpy="3.141592653589793116 1.0047893711214148772e-16 1.6578076876195083607e-29" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_cover.stl"/>
+</geometry>
+<material name="upperleg_cover_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="1.753469930634033528e-16 0 -0.053500000000000075273" rpy="3.141592653589793116 1.0047893711214148772e-16 1.6578076876195083607e-29" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_cover.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-3.0814879110195773649e-33 0 -0.023000000000000020428" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/inline_connect.stl"/>
+</geometry>
+<material name="inline_connect_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-3.0814879110195773649e-33 0 -0.023000000000000020428" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/inline_connect.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="8.3984370386311552134e-18 0 -0.056000000000000021982" rpy="-3.141592653589793116 6.8403891977347234462e-17 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/motor_pulley.stl"/>
+</geometry>
+<material name="motor_pulley_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="8.3984370386311552134e-18 0 -0.056000000000000021982" rpy="-3.141592653589793116 6.8403891977347234462e-17 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/motor_pulley.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="1.3877787807814456755e-17 0 -0.02300000000000000655" rpy="-3.141592653589793116 6.8403891977347234462e-17 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="1.3877787807814456755e-17 0 -0.02300000000000000655" rpy="-3.141592653589793116 6.8403891977347234462e-17 1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="3.6569114985258803736e-17 0 -0.053500000000000019762" rpy="-3.1415926535897926719 3.4480744915607654605e-16 1.6566079009641247914e-29" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_main.stl"/>
+</geometry>
+<material name="upperleg_main_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="3.6569114985258803736e-17 0 -0.053500000000000019762" rpy="-3.1415926535897926719 3.4480744915607654605e-16 1.6566079009641247914e-29" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_main.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="0.015167598538525770002 -1.5067296714423377747e-07 -0.041111839365210615937" rpy="0 0 0"/>
+<mass value="0.90300000000000013589" />
+<inertia ixx="0.00079492894334647393705" ixy="2.0274701385558070391e-08"  ixz="0.00039814748290456752466" iyy="0.0027036181954660119461" iyz="-3.6423891445825261724e-09" izz="0.0028329445625492818972" />
+</inertial>
+</link>
+
+<link name="lowerleg_sasm">
+<visual>
+<origin xyz="2.7755575615628913511e-17 0 -2.7755575615628913511e-17" rpy="2.9330896303248668082e-32 5.2919806624416397802e-31 -8.9902534028177188512e-32" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/lower_leg.stl"/>
+</geometry>
+<material name="lower_leg_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="2.7755575615628913511e-17 0 -2.7755575615628913511e-17" rpy="2.9330896303248668082e-32 5.2919806624416397802e-31 -8.9902534028177188512e-32" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/lower_leg.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="2.7755575615628913511e-17 0 -0.0060000000000000330846" rpy="-1.5707963267948992225 1.5694156464006572129e-15 1.0330794565568739415e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="2.7755575615628913511e-17 0 -0.0060000000000000330846" rpy="-1.5707963267948992225 1.5694156464006572129e-15 1.0330794565568739415e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="2.7755575615628913511e-17 0 0.0060000000000000608402" rpy="1.5707963267949018871 3.2630587779497501504e-15 3.4947918559641619179e-31" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="2.7755575615628913511e-17 0 0.0060000000000000608402" rpy="1.5707963267949018871 3.2630587779497501504e-15 3.4947918559641619179e-31" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-1.415534356397074589e-15 0 3.0531133177191804862e-16" rpy="-2.5827259566927633692e-15 1.5694156464006621433e-15 1.0330794565568739415e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/foot_ball.stl"/>
+</geometry>
+<material name="foot_ball_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.415534356397074589e-15 0 3.0531133177191804862e-16" rpy="-2.5827259566927633692e-15 1.5694156464006621433e-15 1.0330794565568739415e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/foot_ball.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.092866734428134853352 3.4061659242104974425e-09 -1.3731468403229029231e-09" rpy="0 0 0"/>
+<mass value="0.13200000000000006173" />
+<inertia ixx="1.7231392269124719361e-05" ixy="2.7776605562875738498e-11"  ixz="-1.1254075299648235141e-11" iyy="0.00097781315953662188006" iyz="-2.3904249452672315351e-11" izz="0.00098262259218384780113" />
+</inertial>
+</link>
+
+<link name="FL_foot">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="FL_foot_frame" type="fixed" dont_collapse="true">
+<origin xyz="0.21732050807564642914 -2.7339241981394479808e-14 -2.7755575615628913511e-17" rpy="-1.5707963267948950037 2.5827259566927519308e-15 1.570796326794896558" />
+<parent link="lowerleg_sasm" />
+<child link="FL_foot" />
+<axis xyz="0 0 0"/>
+</joint>
+
+<joint name="FL2" type="revolute">
+<origin xyz="0.21300000000000002265 6.4392935428259079345e-15 -0.068500000000000116351" rpy="5.3799142389700426073e-16 -2.219643924176522297e-15 -1.160061430643682592e-15" />
+<parent link="upperleg_sasm" />
+<child link="lowerleg_sasm" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-2.356194490192344837" upper="2.356194490192344837"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="FL1" type="revolute">
+<origin xyz="-2.1926730353241371394e-17 0.016000000000000007272 -0.05999999999999999778" rpy="-1.570796326794896558 -1.4025207337730963138e-27 -3.141592653589793116" />
+<parent link="helbow_sasm" />
+<child link="upperleg_sasm" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="FL0" type="revolute">
+<origin xyz="0.16100000000000047606 0.060000000000000004718 6.00732341963438899e-17" rpy="-3.1278740296522731543e-30 -1.570796326794896336 0" />
+<parent link="body_sasm" />
+<child link="helbow_sasm" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="helbow_sasm_2">
+<visual>
+<origin xyz="-3.1225022567582515373e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 -1.2304096749537510425e-32 2.1854894444503555251e-35" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/angle_motor_connect.stl"/>
+</geometry>
+<material name="angle_motor_connect_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-3.1225022567582515373e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.570796326794896558 -1.2304096749537510425e-32 2.1854894444503555251e-35" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/angle_motor_connect.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-3.1225022567582515373e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.57079632679489678 0.31415926535897942262 3.141592653589793116" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-3.1225022567582515373e-17 -0.016999999999999994282 -0.05999999999999999778" rpy="1.57079632679489678 0.31415926535897942262 3.141592653589793116" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="5.9444804833174412235e-05 -0.0057855661598585957778 -0.054844450125644705896" rpy="0 0 0"/>
+<mass value="0.76500000000000001332" />
+<inertia ixx="0.00070529619085715170197" ixy="8.1991517066816251306e-07"  ixz="-1.1586194990784332562e-06" iyy="0.0010092480556627564381" iyz="9.930097741069608504e-06" izz="0.00061029448812635351401" />
+</inertial>
+</link>
+
+<link name="upperleg_sasm_2">
+<visual>
+<origin xyz="6.1629758220391547298e-33 -2.7755575615628913511e-17 0.02300000000000000655" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/inline_connect.stl"/>
+</geometry>
+<material name="inline_connect_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="6.1629758220391547298e-33 -2.7755575615628913511e-17 0.02300000000000000655" rpy="-1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/inline_connect.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="6.4336349891566550057e-17 -6.1062266354383609723e-16 0.079000000000000139555" rpy="-1.5707963267948961139 6.7027630163414756467e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="6.4336349891566550057e-17 -6.1062266354383609723e-16 0.079000000000000139555" rpy="-1.5707963267948961139 6.7027630163414756467e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="6.3189891121763626325e-17 -6.1062266354383609723e-16 0.05600000000000003586" rpy="5.680172150174810756e-16 6.7027630163414598695e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/motor_pulley.stl"/>
+</geometry>
+<material name="motor_pulley_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="6.3189891121763626325e-17 -6.1062266354383609723e-16 0.05600000000000003586" rpy="5.680172150174810756e-16 6.7027630163414598695e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/motor_pulley.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="-1.3123441721320433052e-15 -4.4408920985006261617e-16 0.053500000000000005884" rpy="6.7027630163415332335e-15 -5.6801721501752919612e-16 7.1453259975484494892e-15" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_cover.stl"/>
+</geometry>
+<material name="upperleg_cover_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="-1.3123441721320433052e-15 -4.4408920985006261617e-16 0.053500000000000005884" rpy="6.7027630163415332335e-15 -5.6801721501752919612e-16 7.1453259975484494892e-15" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_cover.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="1.0468797551964143432e-15 -4.4408920985006261617e-16 0.053500000000000005884" rpy="6.5917407138790278347e-15 -5.6801721501755887701e-16 7.1453259975484510669e-15" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_main.stl"/>
+</geometry>
+<material name="upperleg_main_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="1.0468797551964143432e-15 -4.4408920985006261617e-16 0.053500000000000005884" rpy="6.5917407138790278347e-15 -5.6801721501755887701e-16 7.1453259975484510669e-15" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/upperleg_main.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="5.5511151231257537361e-17 -6.1062266354383609723e-16 0.022999999999999895528" rpy="5.6801721501720635479e-16 6.7027630163414614472e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+<material name="rmdx8v3_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="5.5511151231257537361e-17 -6.1062266354383609723e-16 0.022999999999999895528" rpy="5.6801721501720635479e-16 6.7027630163414614472e-15 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/rmdx8v3.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="0.015167598538526300828 1.5067296670218930515e-07 0.041111839365210588182" rpy="0 0 0"/>
+<mass value="0.90300000000000002487" />
+<inertia ixx="0.00079492894334647805701" ixy="-2.0274701384702897987e-08"  ixz="-0.00039814748290457999298" iyy="0.0027036181954661203664" iyz="-3.6423891380999543117e-09" izz="0.0028329445625493547556" />
+</inertial>
+</link>
+
+<link name="lowerleg_sasm_2">
+<visual>
+<origin xyz="0 0 -0.0059999999999999775735" rpy="-1.5707963267948974462 -2.8921564122512183152e-16 -2.5429977452726976378e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0 0 -0.0059999999999999775735" rpy="-1.5707963267948974462 -2.8921564122512183152e-16 -2.5429977452726976378e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="9.4924068605450884206e-15 0 -5.5511151231257827021e-17" rpy="-8.9544612897452844334e-16 -2.8921564122512183152e-16 -2.5429977452726976378e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/foot_ball.stl"/>
+</geometry>
+<material name="foot_ball_material">
+<color rgba="0.26274509803921569651 0.28235294117647058432 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="9.4924068605450884206e-15 0 -5.5511151231257827021e-17" rpy="-8.9544612897452844334e-16 -2.8921564122512183152e-16 -2.5429977452726976378e-30" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/foot_ball.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="-5.1000508100181411593e-33 2.3072833772312297433e-32 -9.0053785238347150527e-32" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/lower_leg.stl"/>
+</geometry>
+<material name="lower_leg_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0 0 0" rpy="-5.1000508100181411593e-33 2.3072833772312297433e-32 -9.0053785238347150527e-32" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/lower_leg.stl"/>
+</geometry>
+</collision> -->
+<visual>
+<origin xyz="0 0 0.0059999999999999498179" rpy="1.5707963267948954478 -4.0133753269177027904e-31 6.9098931621081517189e-31" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+<material name="61804-2rs_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<!-- <collision>
+<origin xyz="0 0 0.0059999999999999498179" rpy="1.5707963267948954478 -4.0133753269177027904e-31 6.9098931621081517189e-31" />
+<geometry>
+<mesh filename="package://example-robot-data/robots/sassa_description/meshes/61804-2rs.stl"/>
+</geometry>
+</collision> -->
+<inertial>
+<origin xyz="0.092866734428134797841 3.4061659242104978561e-09 -1.3731468248172282193e-09" rpy="0 0 0"/>
+<mass value="0.13200000000000006173" />
+<inertia ixx="1.7231392269123957031e-05" ixy="2.7776605499672273454e-11"  ixz="-1.1254075513365238877e-11" iyy="0.00097781315953662079586" iyz="-2.3904249463132311465e-11" izz="0.00098262259218384693377" />
+</inertial>
+</link>
+
+<link name="FR_foot">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="FR_foot_frame" type="fixed" dont_collapse="true">
+<origin xyz="0.21732050807564631811 -2.7311486405778850894e-14 0" rpy="-1.5707963267948970021 8.9544612897454717878e-16 1.5707963267949038855" />
+<parent link="lowerleg_sasm_2" />
+<child link="FR_foot" />
+<axis xyz="0 0 0"/>
+</joint>
+
+<joint name="FR2" type="revolute">
+<origin xyz="0.21300000000000654521 -5.3568260938163803075e-15 0.06850000000000018574" rpy="6.9248076212676153043e-15 -7.9006181994192093522e-16 9.0032171146696425232e-15" />
+<parent link="upperleg_sasm_2" />
+<child link="lowerleg_sasm_2" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-2.356194490192344837" upper="2.356194490192344837"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="FR1" type="revolute">
+<origin xyz="-4.2430336288061214674e-17 0.015999999999999993394 -0.05999999999999999778" rpy="-1.57079632679489678 -1.8467845446348508561e-15 3.896800864265682098e-17" />
+<parent link="helbow_sasm_2" />
+<child link="upperleg_sasm_2" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="FR0" type="revolute">
+<origin xyz="0.16100000000000047606 -0.059999999999999990841 5.6159486713100279927e-17" rpy="-3.141592653589793116 1.570796326794896336 0" />
+<parent link="body_sasm" />
+<child link="helbow_sasm_2" />
+<axis xyz="0 0 1"/>
+<limit effort="9" velocity="20" lower="-0.785398163397448279" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+</robot>
+
